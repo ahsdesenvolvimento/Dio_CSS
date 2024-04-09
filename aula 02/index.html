@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        /*
+        * SELETORES: definem em quais elementos vamos aplicar o CSS
+        * 1. Seletor de Tag/Tipo
+        * 2. Seletor de Id
+        * 3. Seletor de Classes
+        * 4. Seletor universal
+        * 5. Seletor de atributo
+        */
+
+        
+        /* Seletor de tag/tipo:
+        h1 {
+            background-color: darkblue;
+            color: lightgreen;
+        }
+        div{
+            background-color: lightblue;
+            color: blue;
+        }
+        li{
+            background-color: lightgreen;
+        } 
+        * Seletor por id :
+        #explicacao-seletores{
+            background-color: red;
+            color: white;
+        } */
+
+        /* Seletor por classe:
+        .seletores-mais-comuns{
+            background-color: red;
+            color: white;
+        }
+        .texto-maiusculo{
+            background-color: aqua;
+            color: black;
+            text-transform: uppercase;
+        } */
+        /* Seletor universal: 
+        * {
+            font-weight: bold;
+        } */
+        /*Seletor por atributo:*/
+        /* [title] {
+            color:red;
+        }
+        [title=Netflix] {
+            color:blue;
+        }
+        [title=PrimeVideo] {
+            color:greenyellow;
+            text-transform: uppercase;
+        [title!="Streaming"] {
+            background-color: red;
+        }
+        } */
+        /* [title~="Streaming"] {
+            background-color: red;
+        } */
+        /* [href~="http://"] {
+            background-color: lightgreen;
+            color:red;
+        } */
+        /*procura por sufixo*/
+        [href$="login"] {
+            background-color: green;
+            color: white;
+        }
+        /* [href*="v"] {
+            background-color: red;
+            color: white;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Seletores CSS</h1>
+    <p id="texto-boas-vindas">Bem-vindo!</p>
+    <p id="explicacao-seletores">No CSS nós possuimos os seletores por ID</p>
+    <div>
+        <ul>
+           <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor por tipo:</b> Busca elementos por uma tag html especifica </li>
+           <li class="seletores-mais-comuns texto-maiusculo"><b>Seletor por ID (#):</b> Busca elementos através do atributo "id" </li>
+           <li class="seletores-mais-comuns"><b>Seletor por Classe (.):</b> Busca elementos através do atributo "class" </li>
+           <li class="seletores-mais-comuns"><b>Seletor Universal (*): </b> Busca todos os elementos HTML </li>
+           <li class="seletores-mais-comuns"><b>Seletor de atributo ([atrib]): Seleciona elementos que possuam um atributo especifico em nosso documento HTML</b></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <a target="_blank" title="Streaming Netflix" href="https://www.netflix.com">
+                Netflix
+                </a>
+            </li>
+            <li>
+                <a target="_blank" title="Streaming PrimeVideo" href="https://www.primevideo.com/login">
+                    PrimeVideo
+                </a>
+            </li>
+            <li>
+                <a target="_blank" title="Spotify" href="http://www.spotify.com/">
+                    Spotify
+                </a>
+            </li>
+            <li>
+                <a>
+                    Disney Plus
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
