@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <style>
+        h1, p, div, #link-referencia{
+            color:red;
+            background-color: lightblue;
+        }
+        h1, [id^="botao"] {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agrupamento de seletores</h1>
+    <p>Podemos aplicar as mesmas regras CSS para vários seletores diferentes.
+        Para isso podemos separar os seletores utilizando uma virgula (,)
+    </p>
+    <div>Assim, não precisamos ficar copiando e colando os mesmos códigos para todos,
+        nós podemos fazer um só bloco de CSS e reutilizar as mesmas regras!
+    </div>
+
+    <br><br>
+    <a id="link-referencia" href="#">Clique para ver a documentação</a>
+    <br><br>
+    <a id="link-suporte" href="#">Clique para entrar em contato</a>
+    <br><br>
+    <a id="botao-voltar" href="#">Voltar</a>
+    <br><br>
+    <button id="botao-fechar">fechar página</button>
+</body>
+</html>
