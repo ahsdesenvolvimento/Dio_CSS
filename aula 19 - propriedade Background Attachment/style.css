@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?');
+div {
+    margin-bottom:30px;
+}
+body {
+    height: 200vh;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://blog.emania.com.br/wp-content/uploads/2016/01/fotos-de-montanhas-especial.jpg');
+    background-size: cover;
+    border: 1px solid lightseagreen;
+    overflow: auto;
+}   
+#fixed {
+    background-attachment: fixed;
+}
+
+#scroll {
+    background-attachment: scroll;
+}
+
+#local {
+    background-attachment: local;
+}
