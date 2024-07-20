@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?');
+div {
+    margin-bottom:30px;
+}
+body {
+    height: 200vh;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed lightseagreen;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: orange;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsltTvgFYuWPO2bIzA8-xFke-rciiwac0klA&s');
+    background-blend-mode: multiply;
+}   
+
+#padding-box {
+    background-clip: padding-box;
+}
+
+#border-box {
+    background-clip: border-box;
+}
+
+#content-box {
+    background-clip: content-box;
+}
+
+#text {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
