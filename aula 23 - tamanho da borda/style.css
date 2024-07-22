@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 5px thin; /*pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
