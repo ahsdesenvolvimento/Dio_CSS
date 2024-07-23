@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border-style: solid; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    border-color: rebeccapurple crimson violet royalblue; /*pode-se se definir as cores pelo nome ou RGB e demais opções existentes, bem como é possivel utilizar mais de uma cor na borda*/
+}
