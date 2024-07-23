@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border-style: solid; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+.exemploDashed {
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    border-style: dashed; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploDotted {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    border-style: dotted; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploDouble {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border-style: double; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploGroove {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-style: groove; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploRidge {
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+    border-style: ridge; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploInset {
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    border-style: inset; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploOutset {
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    border-style: outset; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
+
+.exemploMista {
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    border-style: groove double dotted dashed; /*solid -  borda solida / dashed - varios traços / dotted - varios pontos / double - cria uma linha dupla/ groove - cria um efeito de borda 3d / ridge - parecido com o groove, impressão de elemento um pouco elevado / inset -  passa a impressão que o elemento esta afundado /  outset -  parecido com o inset mas da impressão que elemento esta saindo da tela, pode-se aplicar bordar mista.  */
+    /*border-width: thin;  thin =  fino (1mm), medium e thick (5mm) = grosso, também pode-se utilizar dos valores em pixel*/
+    border-width: 10px; /* pode-se definir separadamente os valores dos 4 cantos da borda, com 2 valores o primeiro é em cima e em baixo, com 3 valores, o primeiro é em cima, o segundo nas laterais e o terceiro em baixo, com 4 valores é sentido horario cima, direita, baixo, esquerda */
+    
+}
