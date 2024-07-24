@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border: 10px solid palegreen;
+    border-top: 10px solid yellow;
+    border-bottom: 20px solid red;
+    border-radius: 50%; /* pode-se usar porcentagem também, pode-se utilizar mais de um valor, sendo que com quatro valores, segue sentido horário*/
+    /*propriedade border pode definir espessura da borda, estilo da borda
+    e a cor da borda  */
+
+}
