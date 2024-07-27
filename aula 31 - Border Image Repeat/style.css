@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+}
+
+#exemplo-1 {
+    border-image-source: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSisGK6G-Vld_LVqamwKeP1RpdqrE0xNyu6Zw&s);
+    border-image-slice: 79 fill;
+    border-image-repeat: round; /*repeat (divide a imagem para preencher todas as laterais) / stretch (estica a imagem, menos os cantos) / round (evita cortar imagem, faz redimencionamento da imagem para caber corretamente) / space (se não couber a imagem é colocado um espaço)*/
+    border-image-width: 40px;
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(red,blue);
+    border-image-slice: 10;
+}
