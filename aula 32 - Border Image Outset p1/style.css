@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    margin: 50px auto;
+}
+
+#exemplo-1 {
+    border-image-source: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSisGK6G-Vld_LVqamwKeP1RpdqrE0xNyu6Zw&s);
+    border-image-width: 40px;
+    border-image-outset: 20px;
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(red,blue);
+    border-image-slice: 10;
+    border-image-outset: 20px;
+}
