@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Honk;
+    src: url("/fonts/Honk-Regular.ttf");
+}
+
+* {
+    font-family: Honk;
+}
