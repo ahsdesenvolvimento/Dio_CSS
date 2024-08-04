@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Honk&family=League+Spartan:wght@100..900&family=Playwrite+CL:wght@100..400&display=swap');
+
+#ultra-condensed {
+    font-stretch: ultra-condensed;
+}
+
+#extra-condensed {
+    font-stretch: extra-condensed;
+}
+
+#semi-condensed {
+    font-stretch: semi-condensed;
+}
+
+#semi-expanded {
+    font-stretch: semi-expanded;
+}
+
+#expanded {
+    font-stretch: expanded;
+}
+
+#ultra-expanded {
+    font-stretch: ultra-expanded;
+}
