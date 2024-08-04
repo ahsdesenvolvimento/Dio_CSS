@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Honk&family=League+Spartan:wght@100..900&family=Playwrite+CL:wght@100..400&display=swap');
+
+p{
+    line-height: 1.5; /*pega o tamanho da fonte e multiplica pelo valor definido*/
+}
