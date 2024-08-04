@@ -1,0 +1,13 @@
+#exemplo {
+    font-weight: 500;
+}
+
+#bold {
+    font-weight: bold;
+}
+div {
+    font-weight: normal;
+}
+div p {
+    font-weight: bolder;
+}
