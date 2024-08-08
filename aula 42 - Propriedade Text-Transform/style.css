@@ -1,0 +1,8 @@
+P {
+    text-transform:capitalize;
+
+    /*capitalize -  todas as palavras iniciam em maiúscula /
+    uppercase - todas as letras em maiúsculo 
+    lowercase - todas as letras em minúsculo
+    inherit - herda o valor definido no elemento pai */
+}
