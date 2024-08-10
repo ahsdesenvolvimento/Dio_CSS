@@ -1,0 +1,35 @@
+h1 + p {
+
+    color: blue;
+    text-decoration: underline wavy red 3px;
+    /*
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(2, 70, 47);
+    text-decoration-thickness:5px; */
+    /*text-decoration: line-through;*/
+    /*underline -  linha a baixo do texto
+    throught - risca o texto no meio
+    overline -  cria linha a cima do texto
+    -----------------------------------
+    thickness -  expessura da linha*/
+}
+
+#line {
+    text-decoration-line: underline
+}
+
+#style {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+#color {
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+}
+
+#thickness {
+    text-decoration-line: underline;
+    text-decoration-thickness:2px;
+}
