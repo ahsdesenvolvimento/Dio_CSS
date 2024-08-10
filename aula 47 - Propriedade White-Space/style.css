@@ -1,0 +1,35 @@
+.exemplo {
+    width: 200px;
+    background-color: chartreuse;
+}
+
+span {
+    background-color: seagreen;
+    color: white;
+}
+
+#nowrap {
+    white-space: nowrap;
+    /*Empacotar o texto para caber no elemento*/
+
+}
+
+#pre {
+    white-space: pre;
+    /*Mantem os espaços em branco, as linhas vão se quebrar em novas linhas*/
+}
+
+#pre-line {
+    white-space: pre-line;
+    /*sequencia de espaços em branco se tornam um unico espaço*/
+}
+
+#pre-wrap {
+    white-space: pre-wrap;
+    /*Os espaços em branco são preservados, texto é quebrado quando nexessario e em quebras de linha*/
+}
+
+#break-spaces {
+    white-space: break-spaces;
+    /*Preserva espaços em branco, quebra linha quando chega no limite do container ou quando tem quebra de linha*/
+}
