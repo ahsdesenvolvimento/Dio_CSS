@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #8f382e;
+    margin: 20px auto;
+    background: #fa8072;
+
+    box-shadow: 10px 10px 5px gray, inset 5px 5px 2px red;
+    /*horizontal, vertical, desfoque, como a sombra vai ser propagada, cor da sombra, inset no inicio cria sombra interna,
+    pode-se utilizar varias camadas de sombra, tanto interna como externa */
+}
+
+img {
+
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    object-fit: cover;
+    filter: drop-shadow(10px 10px 5px gray);
+}
