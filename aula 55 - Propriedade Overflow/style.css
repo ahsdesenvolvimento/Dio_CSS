@@ -1,0 +1,24 @@
+.exemplo {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: orange;
+    border: 5px solid purple;
+    overflow: visible; /*overflow visible  - conteudo é exibido mesmo que ultrapasse a caixa do elemento*/
+}
+
+#hidden {
+    overflow: hidden;/*overflow hidden  - conteudo que ultrapassa o elemento fica escondido*/
+}
+
+#scroll {
+    overflow: scroll;/*overflow scroll  - cria uma barra para navegar no conteúdo, permitindo que seja possivel visualizar o conteúdo que ultrapassa os valores definidos do container*/
+}
+
+#auto {
+    overflow: auto;/*overflow auto  - cria uma barra para navegar no conteúdo, permitindo que seja possivel visualizar o conteúdo que ultrapassa os valores definidos do container, obs só cria a barra de rolagem caso o conteúdo ultrapasse o tamanho pré definido*/
+}
+#exemplo-1 {
+    overflow-y: scroll;/* x: horizontal e y: vertical*/
+
+}
