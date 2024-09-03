@@ -1,0 +1,14 @@
+.exemplo {
+    background-color: skyblue;
+    border: 5px solid blue;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+.exemplo img {
+    width: 50%;
+    opacity: .7;
+}
