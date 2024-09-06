@@ -1,0 +1,22 @@
+p {
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+}
+
+.exemplo-01 {
+    background-color: red;
+    color: black;
+}
+
+.exemplo-02 {
+    background-color: black;
+    color: red;
+}
+
+.exemplo-03 {
+    background-color: red;
+    color: black;
+}

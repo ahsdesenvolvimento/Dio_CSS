@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas rem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Unidades relativas: em e rem</h1>
+  
+    <p>
+        A unidade de medida <strong>rem</strong> tem um funcionamento semelhante 
+        à unidade de medida em, porém a diferença é que, enquanto o em utiliza o elemento
+        pai como referência, o rem está relacionado ao tamanho da fonte do elemento raiz,
+        chamado root, que no caso é a tag html.
+    </p>
+
+    <p style="font-size: 1rem;">
+        font-size: 1rem = 16px;
+    </p>
+
+    <p style="font-size: 2rem;">
+        font-size: 2rem = 32px;
+    </p>
+
+    <p style="font-size: 3rem;">
+        font-size: 2rem = 48px;
+    </p>
+
+    <br><br>
+
+    <div class="exemplo-01" style="font-size: 20px;">
+        font-size: 20px;
+        <div class="exemplo-02" style="font-size: 2rem;">
+            font-size: 2rem = 32px;
+            <div class="exemplo-03" style="font-size: 3rem;">
+                font-size: 3rem = 48px;
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="exemplo-02" style="font-size: 30px; width: 10rem;">
+        font-size:30px; <br>
+        width: 10rem = 160px
+
+    </div>
+ 
+ 
+</body>
+</html>
