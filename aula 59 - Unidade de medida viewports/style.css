@@ -1,0 +1,30 @@
+p {
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+}
+
+.exemplo-01 {
+    background-color: yellow;
+    color: black;
+}
+
+.exemplo-02 {
+    background-color: pink;
+    color: black;
+}
+
+.exemplo-03 {
+    background-color: aqua;
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+.borda {
+    border: 3px solid black;
+}
