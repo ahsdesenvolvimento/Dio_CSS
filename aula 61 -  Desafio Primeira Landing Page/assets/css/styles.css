@@ -1,0 +1,218 @@
+@import url("./global.css");
+* {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: azure;
+}
+
+.banner{
+    background-image: url("../images/banner.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(51, 169, 219, 0.2), rgba(0, 0, 0, 0.5));
+    background-size: contain;
+    height: 770px;
+    align-content: center;
+    border-bottom: 2px solid #33A8DB;
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.banner .logo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner .banner-content {
+    color: azure;
+    width: 900px;
+    margin: auto;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#062735, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-top: 25px;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 30px;
+}  
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: transparent;
+    border-image: linear-gradient(#1572B7, #3BA1CD);
+    border-image-slice: 2;
+    transition: all 0.3s ease;
+}
+
+.banner .banner-content button:hover {
+    color: aquamarine;
+    border-image: linear-gradient(aquamarine, rgb(240, 127, 255));
+    border-image-slice: 2;
+}
+
+.banner .banner-content button a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: color 0.3s ease;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 40px 0 20px;
+}
+
+#course-content {
+    color: azure;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#course-content .modules-list {
+    margin: 64px;
+}
+
+#course-content .modules-list .module {
+    color: azure;
+    width: 600px;
+    margin: 34px;
+    border: 1px solid #31A8DD;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 50px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.6), 0 0 6px 2px rgba(49, 169, 221, 0.4);
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+    font-weight: bold;
+}
+
+#transform-world {
+    position: relative;
+    height: 560px;
+    border-top: 2px solid #33A8DB;
+    border-bottom: 2px solid #33A8DB;
+    padding: 200px;
+}
+
+#transform-world::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/w-code.png");
+    filter: brightness(0.8);
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#transform-world h3 {
+    color: azure;
+    font-weight: 800;
+    width: 28ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(28), blinking 0.5s infinite step-end alternate;
+    font-size: 2.7rem;
+    text-transform: lowercase;
+    /*max-width: 350px;*/
+    text-shadow: 3px 3px 1px #33A8DB;
+}
+
+#professional-challenges {
+    width: 850px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+#professional-challenges img {
+    margin: 40px 0;
+}
+
+footer {
+    padding: 80px 0;
+    border-top: 2px solid #33A8DB;
+    background-image: linear-gradient(rgba(13, 62, 82, 0.1), rgba(51, 169, 219, 0.3));
+}
+
+footer a {
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
+
+.logo img:hover{
+    transform: rotate(359deg);
+    transition: all 1.8s ease;
+}
+@keyframes typing {
+    from {
+        width: 0;
+        }
+}
+
+@keyframes blinking {
+    50% {
+    border-color: transparent;
+    }
+}
+#animado {
+    animation-duration: 15s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
