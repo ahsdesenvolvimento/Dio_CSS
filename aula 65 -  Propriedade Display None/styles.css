@@ -1,0 +1,29 @@
+.exemplo {
+    background-color: mediumturquoise;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu {
+    background-color: palegoldenrod;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.esconder-elemento {
+    display: none;
+}
