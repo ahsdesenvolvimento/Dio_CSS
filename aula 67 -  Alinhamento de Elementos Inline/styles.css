@@ -1,0 +1,22 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: mediumturquoise;
+}
+
+#item-01 {
+    height: 50px;
+    vertical-align: middle;
+}
+
+#item-02 {
+    text-align: center;
+    vertical-align: top;
+}
+
+.container {
+    border: 1px solid red;
+    text-align: center;
+}
