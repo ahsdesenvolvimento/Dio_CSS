@@ -1,0 +1,14 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.exemplo {
+    background-color: mediumturquoise;
+}
+
+#item-02 {
+    /*display: none;*/
+    visibility: hidden;
+    /*visibility: hidden - esconde o objeto, porém mantem o espaço que é reservado ao mesmo, diferente do display none*/
+}
+
