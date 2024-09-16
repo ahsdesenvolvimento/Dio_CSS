@@ -24,6 +24,8 @@ body {
 
 #elemento-2 {
     background-color: hotpink;
+    position: sticky;
+    top: 0;
     /*position: absolute;
     opacity: 50%;
     top: 20px;
