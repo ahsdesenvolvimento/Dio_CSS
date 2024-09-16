@@ -1,0 +1,55 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.exemplo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+#elemento-1 {
+    background-color: orange;
+    left: 10px;
+    top: 10px;
+    z-index: 6;
+}
+
+#elemento-2 {
+    background-color: hotpink;
+    left: 20px;
+    top: 20px;
+    z-index: 5;
+}
+
+#elemento-3 {
+    background-color: mediumspringgreen;
+    left: 30px;
+    top: 30px;
+    z-index: 4;
+}
+
+#elemento-4 {
+    background-color: lightblue;
+    left: 40px;
+    top: 40px;
+    z-index: 3;
+}
+
+#elemento-5 {
+    background-color: violet;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+
+#elemento-6 {
+    background-color: blueviolet;
+    left: 60px;
+    top: 60px;
+    z-index: 1;
+}
