@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.exemplo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#elemento-1 {
+    background-color: orange;
+}
+
+#elemento-2 {
+    background-color: hotpink;
+}
+
+#elemento-3 {
+    background-color: mediumspringgreen;
+}
+
+#elemento-4 {
+    background-color: lightblue;
+}
+
+#elemento-5 {
+    background-color: violet;
+}
+
+#elemento-6 {
+    background-color: blueviolet;
+}
