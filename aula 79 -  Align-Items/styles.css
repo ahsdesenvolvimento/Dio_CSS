@@ -1,0 +1,52 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: palegreen;
+    /*padding: 20px;*/
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /*Valores de align-items - para alinhamento no eixo transversal
+    * flex-start: coloca os itens no inicio do eixo-transversal
+    * flex-end: coloca os itens no fim do eixo-transversal
+    * center: coloca os itens no centro do eixo-transversal
+    * strech: valor padrão -  basicamente os itens são esticados para caber no container, mas respeitam as propridades de largura/ altura;
+    * base-line: pega os textos que os itens tem e alinhar na base desses textos, usa o texto como referencia para alinhar os itens
+    **/
+}
+
+.item {
+    background-color: orange;
+    /*margin: 10px;*/
+}
+
+#container-01 {
+    flex-direction: row;
+}
+
+#container-02 {
+    flex-direction: column;
+}
+
+.item-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.item-2 {
+    width: 80px;
+    height: 80px;
+}
+
+.item-3 {
+    width: 40px;
+    height: 40px;
+}
