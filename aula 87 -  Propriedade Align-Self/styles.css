@@ -1,0 +1,48 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    /*propriedades do flex container*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    
+
+    /* Propriedade Align-Self: 
+    A propriedade align-self permite que nós possamos sobrescrever o alinhamento padrão aplicado em todos os itens de forma geral que foi definido pela propriedade align-items.
+    É usado caso se deseja alinhar um item diferente dos demais.
+
+    strech, center, flex-end, flex-start.
+    **/
+}
+#container-1 {
+    flex-direction: column;
+}
+
+
+.item {
+    background-color: yellow;
+    text-align: center;
+    flex: 1;
+
+}
+
+.item-02 {
+    flex: 2;
+    align-self: flex-end;
+
+}
+
+
+
+
+
+
