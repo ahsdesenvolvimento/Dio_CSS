@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    /*propriedades do flex container*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    
+
+    /* Propriedade flex (shorthand): 
+    Normalmente, as propriedades flex-grow, flex-shrink e flex=basis não são usadas de forma individual, mas sim através da propriedade abreviada flex.
+    Os valores de flex-grow, flex-shrink e flex-basis, são definidos, respectivamente, através da propriedade flex.
+
+    flex: initial (padrão) = 0 1 auto (não aumenta mesmo se necessário, pode ser reduzido e tamanho minimo necessario para preencher de acordo com eixo principal o conteúdo dele.
+    flex: auto = 1 1 auto (aumenta caso necessário, pode ser reduzido e tamanho minimo necessario para preencher de acordo com eixo principal o conteúdo dele.
+    flex: none = torna inflexivel, não é legal ser utilizado, é como se fosse flex: 0 0 auto
+    flex: pode-se usar valores positivos, exemplo: flex: 1 -  é equivalente a flex: 1 1 0 (não considera espaço extra)
+    outro exemplo: flex: 2 - equivalente a flex: 2 1 0
+    **/
+}
+#container-1 {
+    flex-direction: column;
+}
+
+
+.item {
+    background-color: yellow;
+    text-align: center;
+    flex: auto;
+
+}
+
+.item-02 {
+    flex: 2;
+
+}
+
+
+
+
+
+
