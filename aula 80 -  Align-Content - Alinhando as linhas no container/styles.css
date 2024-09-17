@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: palegreen;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    align-content: space-around;
+
+    /*Valores de align-content - para alinhamento de linhas no container que possuam mais de uma linha
+    * normal:  valor padrão - alinhados na posição padrão
+    * flex-start: faz com que as linhas ou colunas sejam alinhados na posição de inicio/começo do container -  mais suportado pelos navegadores
+    * flex-end: faz com que as linhas ou colunas sejam alinhados na posição de fim/final do container
+    * center: centraliza linhas e colunas 
+    * space-between: nas extremidades não aplica espaçamentos e aplica espaçamentos nos demais items
+    * space-around: aplica espaçamento igualmente
+    **/
+}
+
+.item {
+    background-color: orange;
+    height: 40px;
+    width: 40px;
+}
+
+#container-01 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container-02 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
