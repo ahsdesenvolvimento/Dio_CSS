@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    /*propriedades do flex container*/
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: row;
+    
+
+    /* Propriedade Flex-Grow: A propriedade flex-grow fará com que esse
+    espaço extra seja usado por esses itens, dando a eles a capacidade para o item de crescer,
+    ao longo do eixo principal, caso for necessário. Obs: números negativos não são aceitos.
+    
+    Respeita o tamanho do conteúdo para distribuir os espaços.
+
+    flex-grow: 2 -  pega 2 vezes o valor do espaço extra do conteudo.
+
+    Cresce de acordo com o eixo principal, sempre respeitando os valores
+
+    **/
+}
+
+.item {
+    background-color: yellow;
+    padding: 8px;
+    /*flex-grow: 1;*/
+}
+
+.item-02 {
+    flex-grow: 2;
+}
+
+
