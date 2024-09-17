@@ -1,0 +1,49 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+
+    /*propriedades do flex container*/
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+
+    /* Propriedade Flex-Basis: A Propriedade flex-basis define qual o tamanho inicial dos itens do nosso flexbox, antes que o espaço que sobra seja redistribuido no container, de acordo com sua dimensão.
+
+       Pode ter valor absoluto ou relativo para essa propriedade.
+
+        * flex-basis: auto -  esse valor vai fazer com que o nosso item observe o tamanho que ele já tem e já foi definido com width e height para utilizar como base.
+        * flex-basis: 0 - faz com que o espaço extra que tem em volta do item não seja considerado, coloca o minimo que precisa para funcionar, tira espaço extra em volta.
+
+       Se usarmos a propriedade flex-basis no item, ele irá sobrescrever o valor do width/height do elemento.
+       Porém, vai respeitar o max-width/max height definido para o elemento, assim como o min-width/min-height. 
+
+       Pode-se usar também flex-basis min-content / max-content
+    **/
+}
+
+
+.item {
+    background-color: yellow;
+    min-width: 100px;
+    text-align: center;
+
+    /*flex-basis: 80px;*/
+}
+
+.item-02 {
+    flex-basis: 80px;
+}
+
+
+
+
+
+
