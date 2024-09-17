@@ -1,0 +1,36 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: palegreen;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+    
+
+    /* Propriedade Gap -  contra espaços entre um item e outro
+    * row-gap - espaçamento entre as linhas 
+    * column-gap - espaçamento entre as colunas
+    * gap -  primeiro valor espaçamento entre as linhas e segundo valor referente ao espaçamento entre as colunas (pode ser valor em pixel, porcentagem ou outros valores de medidas)
+    **/
+}
+
+.item {
+    background-color: orange;
+}
+
+#container-01 {
+    flex-direction: row;
+}
+
+#container-02 {
+    flex-direction: column;
+}
+
