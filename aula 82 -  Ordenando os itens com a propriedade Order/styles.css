@@ -1,0 +1,50 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 200vh;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    /*propriedades do flex container*/
+    display: flex;
+    gap: 20px;
+    
+
+    /* Propriedade Order - podemos ordenar os flex-items através da propriedade Order.
+    Por padrão, os itens são exibidos conforme colocamos no HTML, mas, podemos ordená-lo individualmente.
+
+
+    Pode-se usar valores negativos, valor padrão é o 0, portanto para se colocar um item no inicio, podemos colocar como -1, ou se tiver mais itens, quanto mais negativo, aparecerá primeiro na ordem, se forem defidos mais de um item com o mesmo valor (por exemplo order -1, o sistema verificará na estrutura html para definir quem será exibido antes)
+    Também é possivel definir com o comando order no elemento pai e o valor maximo dos itens (por exemplo 10 itens -  order: 10) e posteriormente definindo a ordem no elemento filho (por exemplo: order: 1 - aparecerá primeiro)
+
+
+    **/
+}
+
+.item {
+    background-color: yellow;
+    padding: 8px;
+}
+
+#container-01 {
+    flex-flow: row wrap; /*Quebra de linha - quando itens não cabem no container*/
+}
+
+#container-02 {
+    flex-flow: column wrap; /*Quebra de coluna -  quando itens não cabem no container*/
+}
+
+.item-04 {
+    order: -1;
+}
+
+.item-07 {
+    order: -2;
+}
+
+.item-09 {
+    order: 1;
+}
