@@ -1,0 +1,61 @@
+.container {
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+
+    /*
+        Quando linhas são criadas por si só são chamadas de grid implicito.
+        Quando define-se as colunas e linhas através das propriedades grid-template-columns e grid-template-rows, estamos criando um grid explicito.
+        Mas, se os itens não couberem, o grid colocará um item fora desse grid que definimos, criando o que chamamos de grid implicito,
+        o tamanho dessas faixas são baseadas no conteudo que possuem dentro delas.
+        podemos definir o valor para esses grid implicitos com o comando grid-auto-rows.
+
+        Outra propriedade é a grid-auto-flow: 
+        Controla como o algoritmo de reposicionamento automatico irá se comportar
+        grid-auto-flow: column; -  coloca o item extra em uma nova coluna ao inves da linha que é a propriedade padrão do grid-auto-flow
+
+        grid-auto-flow: dense -  Ele tenta posicionar no grid o maximo de elementos que existem nas partes que a gente consegue alocar, pode acabar desorganizando todo o conteudo definido
+    */
+   
+
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.item-01 {
+    background-color:firebrick;
+}
+
+.item-02 {
+    background-color:royalblue;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: orange;
+}
+
+.item-05 {
+    background-color:darkslategray;
+}
+
+.item-06 {
+    background-color:aqua;
+}
+
+.item-07 {
+    background-color:tomato;
+}
+
