@@ -1,0 +1,75 @@
+.container {
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr) 100px;
+
+    /*grid-template-columns: 200px 200px 200px - cria 3 colunas com 200px
+      grid-template-columns: 200px 300px 100px -  continua definindo 3 colunas, só que cada coluna com valores diferentes
+      Pode-se usar outras unidades de medidas como porcentagem, ou até mesmo misturar unidades de medidas como:
+      grid-template-columns: 50% 300px 20rem;*/
+
+    grid-template-rows: repeat(2, 1fr);
+
+    /*grid-template-rows: 300px 200px -  Cria duas linhas no grid, uma com 300px e outra com 200px, funcionamento semelhante ao do grid-template-columns */
+
+    /*Unidade de Medida fr: 
+      Criada para o CSS Grid. a unidade de medida fr representa uma fração do espaço disponivel no container do grid
+      
+      grid-template-rows: 2fr 1fr; - esta usando como referencia a propriedade height definido no container para calcular o valor*/
+
+      /* Função repeat: 
+         Permite repetir para toda, ou para algumas das faixas o mesmo valor para seu tamanho de coluna ou linha
+         ex: (antes) .container {
+         grid-template-columns: 1fr 1fr 1fr;
+
+         (depois): 
+         grid-template-columns: repeat(3, 1fr)
+         
+         outros valores: 
+         auto-fill: Ajusta maior numero possivel de colunas em uma linha mesmo que fiquem vazias
+         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+         auto-fit: Quando não tem itens suficientes para preencher as linhas ou colunas que criamos, essas faixas vazias serão recolhidas
+         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+         min-content: cria com tamanho minimo do conteudo
+         min-content: cria com tamanho maximo do conteudo
+         auto: ajusta automaticamente com o conteudo, porém se usar outra unidade de medida junto como o fr, o mesmo ira sobrepor ao auto, fazendo que ele ocupe só o valor do conteudo, enquanto o outro valor ocupa maior espaço na tela
+         */
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.item-01 {
+    background-color:firebrick;
+}
+
+.item-02 {
+    background-color:royalblue;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: orange;
+}
+
+.item-05 {
+    background-color:darkslategray;
+}
+
+.item-06 {
+    background-color:aqua;
+}
+
+/*
+grid-template-columns: Define as colunas do grid, tamanho das colunas, espaço que vão ocupar.
+grid-template-rows: Define as linhas do grid, tamanho que irão ocupar, quantas linhas terão.
+*/
