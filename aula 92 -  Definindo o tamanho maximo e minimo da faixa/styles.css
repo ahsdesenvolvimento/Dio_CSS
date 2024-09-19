@@ -1,0 +1,49 @@
+.container {
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+
+    /*
+        função minmax -  Define tamanho maximo e minimo
+    */
+   
+
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.item-01 {
+    background-color:firebrick;
+}
+
+.item-02 {
+    background-color:royalblue;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: orange;
+}
+
+.item-05 {
+    background-color:darkslategray;
+}
+
+.item-06 {
+    background-color:aqua;
+}
+
+.item-07 {
+    background-color:tomato;
+}
+
